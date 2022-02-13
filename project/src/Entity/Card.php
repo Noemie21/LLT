@@ -26,7 +26,7 @@ use ApiPlatform\Core\Annotation\ApiFilter;
         'delete'
     ]
 )]
-#[ApiFilter(SearchFilter::class, properties: ['content' => 'partial'])]
+//#[ApiFilter(SearchFilter::class, properties: ['content' => 'partial'])]
 class Card
 {
     #[ORM\Id]
